@@ -1,0 +1,101 @@
+.ui.segment.vertical.basic.masthead{
+    height: 700px;
+    background: url('images/banner3.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.ui.header.center.aligned.inverted.slogan.red{
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.ui.button.red.circular{
+    width: 220px;
+}
+
+.ui.header.logo{
+    font-size: 30px;
+    color: rgb(196,196,196);
+}
+
+.ui.inverted.segment.card-view{
+    height: 220px;
+}
+
+.ui.segment.vertical.basic.recommended > .ui.center.aligned.header{
+    font-size: 45px;
+    color: rgb(56,56,56);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.ui.header.title{
+    margin-bottom: 100px;
+
+}
+
+.ui.segment.inverted.red.basic.people-say{
+    height: 450px;
+    background: url('images/people-say.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 70px;
+}
+
+.four.wide.column{
+    position: relative;
+}
+
+.ui.circular.inverted.segment{
+    background: url('images/profile.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+
+}
+.ui.segment.inverted.red.basic.people-say > .ui.grid{
+    position: relative;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+.ui.segment.inverted.red.basic.people-say > .ui.center.aligned.header {
+    position: absolute;
+    top: 80px;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.ui.segment.inverted.red.basic.people-say > .ui.inverted.red.circular.button{
+    position: absolute;
+    top: 100%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+
+}
+
+.ui.circular.inverted.segment > .ui.header.inverted.olive{
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 200px;
+}
+
+.ui.circular.inverted.segment >.icon.green.inverted.circular.star{
+    position: absolute;
+    transform: translate(-100%,-100%);
+    left: 95%;
+    top: 100%;
+
+}
